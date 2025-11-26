@@ -8,7 +8,7 @@ from pydantic import BaseModel
 llm = ChatGoogle(
     # base_url= "https://generativelanguage.googleapis.com/v1beta/",
     model="gemini-2.5-flash",
-    api_key="AIzaSyCQswJ8iMgcS4xcPSeSWzEHA7jRZ-wMD0Y",
+    api_key="your key",
 )
 extend_system_message = """
     1、执行搜索任务时，优先打开 https://gushitong.baidu.com/ 进行搜索。
